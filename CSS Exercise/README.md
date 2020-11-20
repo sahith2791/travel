@@ -1,3 +1,5 @@
+
+
 # CSS Exercise
 
 - Create a fill that ends with ‘.css’
@@ -7,3 +9,10 @@
     - href - points to the location of your css file
     - rel - set to ‘stylesheets’ that will link the style sheets
     - type - must be set to ‘text/css’ for linking css.
+
+# JavaScript Exercise
+Create a google like statis search page with help html + css + js
+
+or 
+
+Create a simple Form (Static) with help of html + css + js.
