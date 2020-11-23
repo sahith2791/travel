@@ -16,3 +16,14 @@ You can assume that the input to the function will always be a valid date (as a 
 
 Note: If the month or day is a single digit number, then it shall be preceeded by a 0 (zero). 
 For example, in Einstein's case the month of March is 3; which is a single digit number. The function shall in this case be called with the following parameter: lifePathNumber("1879-03-14").
+
+Solution:
+function lifePathNumber(dateOfBirth) {
+  var num = dateOfBirth.split("-").join("");
+  
+  do{
+    num = (""+num).split("").reduce((p,c) => +p+ +c);
+  }while(num > 9);
+  
+  return num;
+}
