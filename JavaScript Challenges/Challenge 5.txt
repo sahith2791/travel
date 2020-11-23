@@ -5,3 +5,5 @@ Solution:
 function binConversion(str){
     return str.split('').map(x => x < 5 ? 0 : 1).join('');
 }
+
+"34567" -> 00011
