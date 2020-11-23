@@ -66,7 +66,7 @@ Create `index.html` under `dist` directory
     <title>Getting Started</title>
   </head>
   <body>
-    <script src="main.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
 ```
