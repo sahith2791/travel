@@ -66,7 +66,7 @@ Create `index.html` under `dist` directory
     <title>Getting Started</title>
   </head>
   <body>
-    <script src="main.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
 ```
@@ -150,10 +150,12 @@ path: path.resolve(__dirname, 'dist')
 
 Create a new under `src` directory and call it `mycomponent.js` and paste the following code
 
-```export default (text = "Hello World from WEBPACK") => {
-   const elment = document.createElement("p");
-   element.inneHTML = text;
-   return element;
+```export default (text = "Hello Webpack") => {
+  const element = document.createElement("p");
+
+  element.innerHTML = text;
+
+  return element;
 };
 ```
 
