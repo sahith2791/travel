@@ -35,6 +35,9 @@ class ShelfContainer extends React.Component {
     });
   };
 
+  // TO DO : Create teh Delete function and pass it over to the childe comp
+// console.log(I am getting dleted)
+
   render() {
     console.log("Props COntainer", this.props)
     return (
